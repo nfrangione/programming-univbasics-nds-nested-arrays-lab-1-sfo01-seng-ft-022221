@@ -31,6 +31,7 @@ def sorted_matrix
   array = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   array[CONVENTIONAL_PRODUCE].sort
   array[ORGANIC_PRODUCE].sort
+  array
 end
 
 def matrix_lookup(matrix, row, column)
